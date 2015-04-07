@@ -1,0 +1,56 @@
+table{
+	border-spacing: 0;
+}
+
+td{
+	width: 15px;
+	height: 15px;
+	background: #EEE;
+	padding: 0;
+	margin: 0;
+}
+
+td.N{
+	border-top: solid #444 1px;
+}
+
+td.W{
+	border-left: solid #444 1px;
+}
+
+td.S{
+	border-bottom: solid #444 1px;
+}
+
+td.E{
+	border-right: solid #444 1px;
+}
+
+td.extra{
+	border-left: 1px solid #444;
+	border-right: 1px solid #444;
+	text-align: center;
+}
+
+td.blank{
+	background: none;
+}
+td.start{
+	border-top: 0;
+}
+
+td.finish{
+	border-bottom: 0;
+}
+
+form{
+	display: inline-block;
+}
+
+.path{
+	background: yellow;
+}
+
+.backtrack{
+	background: #669;
+}
